@@ -1,0 +1,28 @@
+{
+  "name": "sst-grant-permission-to-imported-function",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "sst test",
+    "start": "sst start",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove"
+  },
+  "eslintConfig": {
+    "extends": [
+      "serverless-stack"
+    ]
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.132.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-iam": "1.132.0",
+    "@aws-cdk/aws-lambda": "1.132.0",
+    "@aws-cdk/aws-ssm": "1.132.0",
+    "@aws-cdk/core": "1.132.0",
+    "@serverless-stack/cli": "0.56.2",
+    "@serverless-stack/resources": "0.56.2"
+  }
+}
